@@ -1,0 +1,81 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  border-radius: 10px;
+  border: 4px solid rgb(29, 58, 112);
+  background-color: rgb(211, 226, 255);
+}
+
+.container h1 {
+  font-size: 3.5em;
+  margin: 0;
+  color: rgb(23, 46, 87);
+}
+
+.buttons{
+  display: flex;
+  gap: 100px;
+}
+
+.add{
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid rgb(52, 78, 124);
+  background-color: rgb(9, 46, 110);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+.add:hover{
+  background-color: rgb(35, 79, 155);
+  color: white;
+}
+
+.delete{
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid rgb(84, 13, 21);
+  background-color: rgb(125, 16, 28);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+.delete:hover{
+  background-color: rgb(175, 34, 51);
+  color: white;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid rgb(9, 46, 110);
+  text-align: center;
+}
+
+th {
+  background-color: rgb(30, 42, 62);
+  font-weight: bold;
+  color: white;
+}
+
+tr:hover {
+  background-color: rgb(172, 203, 255);
+}
